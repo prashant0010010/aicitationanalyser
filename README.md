@@ -462,6 +462,4 @@ Honest notes on what was and was not exercised when this project was built:
 - **Not verified in the build environment:** fetching real public URLs (the build sandbox had no general internet access, so network paths were tested with mocks and SSRF checks only), live calls to Gemini, OpenAI, Anthropic, Brave or Google CSE (tested with mocked responses), and the optional sentence-transformers backend (not installable there, so the fallback path was tested). Please try a real URL and, if you use one, a real key as your first acceptance test, and report any provider response format changes.
 - Provider model names and free-tier terms change. Verify them in each provider's current documentation.
 
-## License
-
-MIT. See `LICENSE`. Concepts around semantic density, cosine similarity and sentence embeddings were adapted from the author's Cosine project, reimplemented here for a different purpose.
+ 
