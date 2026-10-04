@@ -1,0 +1,23 @@
+{
+  "_note": "DEMO DATA. These two AI answers are fictional examples supplied to demonstrate the module. They were not produced by a real AI search engine.",
+  "answers": [
+    {
+      "label": "Demo answer A",
+      "query": "best accounting software for small businesses",
+      "text": "For small businesses in New Zealand, three popular choices are:\n- Lumen Ledger: best for sole traders and small teams, with automatic bank feeds and GST filing from NZ$29 per month [1].\n- Ledgerly: good value for sole traders, although payroll is an add-on [2].\n- Tallyworks: suits larger teams that need multi-entity reporting [2].\nChoose based on your payroll needs and the banks you use.",
+      "citations": [
+        "Accounting software reviews - https://reviews.example/accounting-software",
+        "Lumen Ledger - https://lumenledger.example/best-accounting-software-small-business"
+      ]
+    },
+    {
+      "label": "Demo answer B",
+      "query": "best accounting software for small businesses",
+      "text": "Ledgerly is often recommended for small businesses because of its low entry price and strong invoicing. Tallyworks is a better fit for firms that need multi-entity reporting. Other products are available, so compare payroll and bank feed support before deciding.",
+      "citations": [
+        "Ledgerly pricing - https://ledgerly.example/pricing",
+        "Small business software roundup - https://news.example/small-business-software"
+      ]
+    }
+  ]
+}

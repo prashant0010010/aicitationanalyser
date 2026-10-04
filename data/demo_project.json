@@ -1,0 +1,34 @@
+{
+  "query": "best accounting software for small businesses",
+  "entity": "Lumen Ledger",
+  "website": "https://lumenledger.example",
+  "industry": "Accounting software",
+  "market": "New Zealand",
+  "competitors": [
+    {
+      "name": "Ledgerly",
+      "domain": "ledgerly.example"
+    },
+    {
+      "name": "Tallyworks",
+      "domain": "tallyworks.example"
+    }
+  ],
+  "external_sources": [
+    {
+      "label": "Reviews Example (demo review site)",
+      "url": "https://reviews.example/accounting-software",
+      "file": "sample_external_review.html"
+    },
+    {
+      "label": "Business News Example (demo news)",
+      "url": "https://news.example/lumen-ledger-12000",
+      "file": "sample_external_news.html"
+    },
+    {
+      "label": "Community Forum Example (demo forum)",
+      "url": "https://forum.example/accounting-software-thread",
+      "file": "sample_external_forum.html"
+    }
+  ]
+}

@@ -1,0 +1,1532 @@
+{
+  "_label": "DEMO DATA: fictional entity and sources bundled with the application. Not a real analysis.",
+  "project": {
+    "query": "best accounting software for small businesses",
+    "extra_queries": [],
+    "entity": "Lumen Ledger",
+    "website": "https://lumenledger.example",
+    "industry": "Accounting software",
+    "market": "New Zealand",
+    "competitors": [
+      {
+        "name": "Ledgerly",
+        "domain": "ledgerly.example"
+      },
+      {
+        "name": "Tallyworks",
+        "domain": "tallyworks.example"
+      }
+    ],
+    "target_url": "https://lumenledger.example/best-accounting-software-small-business",
+    "target_pasted": "(see data/sample_article.html)",
+    "external_urls": [],
+    "external_pasted": "(see data/sample_external_*.html)"
+  },
+  "results": {
+    "generated_at": "2026-10-04 01:01:57 UTC",
+    "query": "best accounting software for small businesses",
+    "metrics": [
+      {
+        "id": 1,
+        "key": "bluf",
+        "name": "Direct Answer / BLUF Strength",
+        "pillar": "structural",
+        "score": 100.0,
+        "status": "measured",
+        "scale": "0-100",
+        "raw_value": {
+          "opening_words": 51,
+          "opening_similarity": 0.412,
+          "qa_pairs": 6,
+          "qa_direct": 6
+        },
+        "evidence": [
+          "Opening window (180 words read): best match to the query is a 51-word paragraph with similarity 0.41 (tfidf).",
+          "Opening passage: The best accounting software for a small business is the one that automates bank feeds, GST returns and invoicing at a price the business can sustain. Lumen Ledger is cloud accounting software built for small business...",
+          "6 of 6 question-style headings are followed by a concise direct answer.",
+          "Direct: 'What is accounting software for small businesses?' then 'Accounting software records income and expenses, reconciles bank transactions and prepa...'",
+          "Direct: 'How much does accounting software cost?' then 'Lumen Ledger costs NZ$29 per month for the Starter plan, NZ$59 per month for the Growth...'",
+          "Direct: 'Who is Lumen Ledger for?' then 'Lumen Ledger is designed for small businesses with up to 25 employees, including trades...'"
+        ],
+        "method": "Relevance of the opening 150 words to the query (semantic similarity) and passage length fit (50%), plus the share of question-style headings followed by a concise answer of 8 to 80 words (50%).",
+        "interpretation": "Direct answer strength is strong. The query is answered early and concisely.",
+        "recommendations": [],
+        "components": {
+          "opening_answer": 50.0,
+          "question_answer_pairs": 50.0
+        }
+      },
+      {
+        "id": 2,
+        "key": "headings",
+        "name": "Heading Hierarchy",
+        "pillar": "structural",
+        "score": 83.1,
+        "status": "measured",
+        "scale": "0-100",
+        "raw_value": {
+          "headings": 12,
+          "h1": 1,
+          "skips": 0,
+          "avg_section_words": 31.7
+        },
+        "evidence": [
+          "12 headings: 1 H1, 8 H2, 3 H3, deeper 0.",
+          "0 skipped heading level(s). Average section length 32 words. Average heading length 5.2 words.",
+          "25% of headings contain query terms.",
+          "Outline: H1 Best Accounting Software for Small Bu...; H2 What is accounting software for small...; H2 Key features to compare; H2 How much does accounting software cost?; H2 Lumen Ledger compared with Ledgerly a...; H2 Who is Lumen Ledger for?; H2 Limitations to consider; H2 Customer evidence"
+        ],
+        "method": "Single H1 (25%), no skipped levels (20%), section length balance (20%), descriptive heading wording (15%), share of headings related to the query (20%).",
+        "interpretation": "Heading hierarchy is good. The outline is a reliable map of the page.",
+        "recommendations": [],
+        "components": {
+          "single_h1": 25.0,
+          "no_skipped_levels": 20.0,
+          "section_balance": 10.6,
+          "descriptive_wording": 15.0,
+          "query_related_headings": 12.5
+        }
+      },
+      {
+        "id": 3,
+        "key": "chunkability",
+        "name": "Content Chunkability",
+        "pillar": "structural",
+        "score": 91.7,
+        "status": "measured",
+        "scale": "0-100",
+        "raw_value": {
+          "paragraphs": 11,
+          "ideal_share": 0.727,
+          "overlong_share": 0.0,
+          "dependent_share": 0.0
+        },
+        "evidence": [
+          "11 paragraphs: 73% are 25 to 150 words, 0% exceed 200 words. Median length 36 words.",
+          "0 paragraph(s) open with a dependent referent such as 'This', 'However' or 'It' (0%).",
+          "8 of 12 headed section(s) contain a substantive paragraph or list."
+        ],
+        "method": "Share of paragraphs of 25 to 150 words (30%), self-containment of paragraph openings (25%), share of sections with a heading plus substantive paragraph (25%), absence of overlong paragraphs (20%).",
+        "interpretation": "Chunkability is strong. Passages can be separated and quoted without loss of meaning.",
+        "recommendations": [
+          "Give every H2 section at least one self-contained paragraph of 40 words or more rather than headings followed only by fragments."
+        ],
+        "components": {
+          "ideal_length_paragraphs": 30.0,
+          "self_contained_openings": 25.0,
+          "substantive_sections": 16.7,
+          "no_overlong_paragraphs": 20.0
+        }
+      },
+      {
+        "id": 4,
+        "key": "structured",
+        "name": "Structured Data / Machine Readability",
+        "pillar": "structural",
+        "score": 83.3,
+        "status": "measured",
+        "scale": "0-100",
+        "raw_value": {
+          "jsonld": 3,
+          "schema_types": [
+            "Article",
+            "Organization"
+          ]
+        },
+        "evidence": [
+          "JSON-LD blocks: 3; schema types: Article, Organization.",
+          "Meta description: 137 characters (ideal 70 to 170).",
+          "Title: 75 characters. Canonical: yes. Open Graph title and description: yes.",
+          "1 list(s) and 1 table(s) in the main content. Published: 2026-03-02; modified: not found."
+        ],
+        "method": "Additive checklist: JSON-LD (25), relevant schema types (20), entity schema naming the target (10), sameAs (5), meta description (10), title (10), canonical (5), Open Graph (5), lists or tables (5), dates (5).",
+        "interpretation": "Machine readability is good. Structured data and metadata describe the page and entity clearly.",
+        "recommendations": [
+          "Question-style headings exist but FAQPage markup does not. Mark up the question and answer pairs.",
+          "Add sameAs links to authoritative profiles (for example LinkedIn, Wikipedia, Crunchbase) to tie the entity to its wider footprint."
+        ],
+        "components": {
+          "json_ld_present": 25,
+          "relevant_schema_types": 13.3,
+          "entity_schema_names_target": 10,
+          "sameAs": 0,
+          "meta_description": 10,
+          "title": 5,
+          "canonical": 5,
+          "open_graph": 5,
+          "lists_or_tables": 5,
+          "dates": 5
+        }
+      },
+      {
+        "id": 5,
+        "key": "density",
+        "name": "Information Density",
+        "pillar": "information",
+        "score": 75.1,
+        "status": "measured",
+        "scale": "0-100",
+        "raw_value": {
+          "informative_ratio": 0.686,
+          "filler_per_1000": 0.0,
+          "ttr": 0.553,
+          "semantic_share": 0.22857142857142856
+        },
+        "evidence": [
+          "24 of 35 sentences (69%) carry a figure or a named entity.",
+          "Semantic density: 23% of sentences are relevant to the query (tfidf similarity).",
+          "Filler phrases: 0 found (0.0 per 1,000 words).",
+          "Lexical diversity (type-token ratio over the first 1,000 content terms): 0.55.",
+          "Low-information sentence: Many options are on the market today and they are all great solutions that will take your business to the next level.",
+          "Low-information sentence: For a small business, it replaces spreadsheets and paper records with a single, auditable ledger."
+        ],
+        "method": "Informative sentence ratio (40%), semantic density against the query (25%), absence of filler phrases (20%), lexical diversity (15%).",
+        "interpretation": "Information density is good. Most sentences add specific information.",
+        "recommendations": [
+          "Under a third of sentences relate to the query. Cut or relocate material that does not help answer it."
+        ],
+        "components": {
+          "informative_sentences": 40.0,
+          "semantic_density": 6.4,
+          "absence_of_filler": 20.0,
+          "lexical_diversity": 8.7
+        }
+      },
+      {
+        "id": 6,
+        "key": "facts",
+        "name": "Fact Density",
+        "pillar": "information",
+        "score": 100.0,
+        "status": "measured",
+        "scale": "0-100",
+        "raw_value": {
+          "fact_items": 17,
+          "per_100_words": 3.21,
+          "by_type": {
+            "currency": 7,
+            "definition": 4,
+            "measurement": 2,
+            "comparison": 1,
+            "date": 1,
+            "percentage": 1,
+            "quantity": 1
+          }
+        },
+        "evidence": [
+          "17 fact items in 16 of 40 sentences: 3.21 per 100 words (full score at 3).",
+          "By type: currency 7, definition 4, measurement 2, comparison 1, date 1, percentage 1, quantity 1.",
+          "Fact (percentage, quantity): More than 12,000 small businesses use Lumen Ledger and 94% of customers say it saves them at least three hours a month on bookkeeping.",
+          "Fact (currency): Lumen Ledger is cloud accounting software built for small businesses in New Zealand and Australia, and it covers all three from NZ$29 per month.",
+          "Fact (definition): Lumen Ledger is a cloud product, so data is available from any browser.",
+          "Fact (measurement): Automatic bank feeds from 14 New Zealand and Australian banks ; GST return preparation and filing with Inland Revenue ; Invoicing with online payment links ; Payroll f..."
+        ],
+        "method": "Fact items per 100 words against a target (80%) plus variety of fact types (20%). Extraction is pattern-based and deterministic.",
+        "interpretation": "Fact density is strong. The page carries many concrete, checkable statements.",
+        "recommendations": [],
+        "components": {
+          "fact_items_per_100_words": 80.0,
+          "fact_type_variety": 20.0
+        }
+      },
+      {
+        "id": 7,
+        "key": "attribution",
+        "name": "Evidence Attribution",
+        "pillar": "information",
+        "score": 0.0,
+        "status": "proxy",
+        "scale": "0-100",
+        "raw_value": {
+          "claims": 8,
+          "attributed": 0,
+          "external_domains": 0
+        },
+        "evidence": [
+          "0 of 8 claim sentences (0%) carry an attribution cue or an outbound link in the same paragraph.",
+          "0 distinct external domain(s) linked from the content. References section: no.",
+          "Unattributed claim: The best accounting software for a small business is the one that automates bank feeds, GST returns and invoicing at a price the business can sustain.",
+          "Unattributed claim: Lumen Ledger is cloud accounting software built for small businesses in New Zealand and Australia, and it covers all three from NZ$29 per month.",
+          "Unattributed claim: Lumen Ledger costs NZ$29 per month for the Starter plan, NZ$59 per month for the Growth plan and NZ$99 per month for the Scale plan, all billed monthly with..."
+        ],
+        "method": "Share of claim sentences with an attribution cue or in-paragraph outbound link (60%), outbound source domains (25%), presence of a references section (15%).",
+        "interpretation": "Evidence attribution is very weak. Many claims would be treated as unsupported assertions.",
+        "recommendations": [
+          "8 claim(s) have no visible source. Name the source and year beside each (for example 'According to [publisher], 2025') and link to it. Start with: 'The best accounting software for a small business is the one that automates bank feeds,...'",
+          "Link to primary sources (studies, standards bodies, regulators or original data) rather than relying on unlinked assertions.",
+          "Add a short Sources or References section listing the evidence behind the page's main claims."
+        ],
+        "components": {
+          "attributed_claims": 0.0,
+          "source_domains": 0.0,
+          "references_section": 0.0
+        }
+      },
+      {
+        "id": 8,
+        "key": "coverage",
+        "name": "Information Coverage",
+        "pillar": "information",
+        "score": 91.7,
+        "status": "proxy",
+        "scale": "0-100",
+        "raw_value": {
+          "facets": 12,
+          "full": 10,
+          "partial": 2,
+          "missing": 0
+        },
+        "evidence": [
+          "12 subtopics assessed for intent 'commercial' (tfidf similarity plus keyword evidence): 10 covered, 2 partial, 0 missing.",
+          "Covered: What it is (definition and overview); Key features and capabilities; Pricing and plans; Limitations and trade-offs; Comparison with alternatives; Use cases and target audience; Selection criteria; Availability, support and setup; Query concept: accounting software; Query concept: small businesses",
+          "Partial: Benefits and strengths; Evidence, reviews and proof",
+          "Missing: none"
+        ],
+        "method": "Query-adaptive subtopic set (intent facets, query concepts and optional AI-suggested topics). Each is checked by keyword evidence and semantic similarity. Full coverage counts 1, partial 0.5.",
+        "interpretation": "Information coverage is strong: 10 of 12 expected subtopics are fully addressed.",
+        "recommendations": [
+          "Strengthen the partially covered subtopics (Benefits and strengths; Evidence, reviews and proof) with a dedicated heading and at least one concrete fact each."
+        ],
+        "components": {
+          "coverage_pct": 91.7
+        }
+      },
+      {
+        "id": 9,
+        "key": "presence",
+        "name": "Entity Presence",
+        "pillar": "entity",
+        "score": 82.7,
+        "status": "measured",
+        "scale": "0-100",
+        "raw_value": {
+          "mentions": 13,
+          "per_1000_words": 24.57
+        },
+        "evidence": [
+          "13 mention(s) of 'Lumen Ledger' in 529 words (24.6 per 1,000 words).",
+          "In title: yes. In H1: no. In first 100 words: yes.",
+          "Appears in 4 heading(s) and in 9 of 12 section(s).",
+          "Headings naming the entity: Lumen Ledger compared with Ledgerly and Tallyworks; Who is Lumen Ledger for?; Is Lumen Ledger suitable for sole traders?"
+        ],
+        "method": "Mention in title (20), H1 (15), first 100 words (15), mention density per 1,000 words (20), headings (10), metadata or schema (10), spread across sections (10).",
+        "interpretation": "The entity is good in prominence. It is mentioned 13 time(s) and the strongest signals are in the body text.",
+        "recommendations": [
+          "Name 'Lumen Ledger' in the H1. Current H1: Best Accounting Software for Small Businesses."
+        ],
+        "components": {
+          "title": 20,
+          "h1": 0,
+          "first_100_words": 15,
+          "density": 17.7,
+          "headings": 10,
+          "metadata_or_schema": 10,
+          "section_spread": 10.0
+        }
+      },
+      {
+        "id": 10,
+        "key": "clarity",
+        "name": "Entity Clarity",
+        "pillar": "entity",
+        "score": 65.0,
+        "status": "measured",
+        "scale": "0-100",
+        "raw_value": {
+          "definitions": 1,
+          "offerings": 1,
+          "audience": 2
+        },
+        "evidence": [
+          "Definition: Lumen Ledger is a cloud product, so data is available from any browser.",
+          "Offering: Lumen Ledger partners with Hui Payments to offer same-day invoice payments, and it integrates with Shopify for online retailers.",
+          "Audience: Lumen Ledger is cloud accounting software built for small businesses in New Zealand and Australia, and it covers all three from NZ$29 per month.",
+          "13 sentence(s) mention the entity; 1 define it, 1 describe an offering, 2 state an audience."
+        ],
+        "method": "Definition sentence (35), offering described (25), identity or location facts (15), audience stated (15), definition appears early (10).",
+        "interpretation": "Entity clarity is developing. The page defines the entity directly.",
+        "recommendations": [
+          "Add identity facts (year founded, headquarters or service area) beside the entity name so it can be disambiguated.",
+          "Move the definition into the first fifth of the page. It currently appears late."
+        ],
+        "components": {
+          "definition_sentence": 35,
+          "offering_described": 15.0,
+          "identity_or_location": 0,
+          "audience_stated": 15,
+          "stated_early": 0
+        }
+      },
+      {
+        "id": 11,
+        "key": "relationships",
+        "name": "Entity Relationships",
+        "pillar": "entity",
+        "score": 85.0,
+        "status": "measured",
+        "scale": "0-100",
+        "raw_value": {
+          "related": 10,
+          "typed": 5,
+          "schema_props": []
+        },
+        "evidence": [
+          "10 related or competing entities share sentences with 'Lumen Ledger' (GST, New Zealand, Ledgerly, Tallyworks, Shopify, Hui Payments).",
+          "Competition: Lumen Ledger and Ledgerly. Evidence: Lumen Ledger compared with Ledgerly and Tallyworks.",
+          "Competition: Lumen Ledger and Tallyworks. Evidence: Lumen Ledger compared with Ledgerly and Tallyworks.",
+          "Partnership: Lumen Ledger and Hui Payments. Evidence: Lumen Ledger partners with Hui Payments to offer same-day invoice payments, and it integrates with Shopify for online retailers.",
+          "Partnership: Lumen Ledger and Shopify. Evidence: Lumen Ledger partners with Hui Payments to offer same-day invoice payments, and it integrates with Shopify for online retailers.",
+          "No relationship properties (sameAs, founder, parentOrganization, brand and similar) found in schema markup."
+        ],
+        "method": "Distinct related entities (40), typed relationship statements (30), entity type diversity (15), schema relationship properties (15).",
+        "interpretation": "Relationship mapping is strong: 5 typed relationship statement(s) and 10 related entities were found.",
+        "recommendations": [
+          "Add schema.org properties that express relationships (sameAs, founder, parentOrganization, brand, areaServed) to the entity's JSON-LD."
+        ],
+        "components": {
+          "related_entities": 40.0,
+          "typed_relationships": 30.0,
+          "type_diversity": 15.0,
+          "schema_relations": 0.0
+        }
+      },
+      {
+        "id": 12,
+        "key": "relevance",
+        "name": "Contextual Relevance",
+        "pillar": "entity",
+        "score": 50.3,
+        "status": "measured",
+        "scale": "0-100",
+        "raw_value": {
+          "relevant_share": 0.231,
+          "best_similarity": 0.452,
+          "backend": "tfidf"
+        },
+        "evidence": [
+          "Backend: tfidf. 3 of 13 passages are relevant to the query (similarity >= 0.12); best similarity 0.45.",
+          "9 passage(s) mention the entity; 4 of them also contain at least half of the key query terms.",
+          "Query terms appear in the title: yes; in the H1: yes; in 25% of headings.",
+          "Most relevant passage (similarity 0.45): The best accounting software for a small business is the one that automates bank feeds, GST returns and invoicing at a price the business can sustain. Lumen Ledger is cloud acco...",
+          "Most relevant passage (similarity 0.13): Accounting software records income and expenses, reconciles bank transactions and prepares tax returns. For a small business, it replaces spreadsheets and paper records with a s..."
+        ],
+        "method": "Relevance of entity-mentioning passages to the query (35%), share of all passages that are relevant (25%), query terms in title, H1 and headings (20%), entity and query co-occurrence (20%).",
+        "interpretation": "Contextual relevance is developing. The entity and the query are only weakly linked in the page text.",
+        "recommendations": [
+          "Only 4 of 9 passages that name 'Lumen Ledger' also use the language of the query. Put the query's key terms (accounting, software, small, businesses) in the same passages as the entity name.",
+          "Most passages are only loosely related to the query. Tighten the page to the query or split off-topic material into separate pages."
+        ],
+        "components": {
+          "entity_passage_relevance": 15.6,
+          "relevant_passage_share": 9.6,
+          "query_terms_in_headings": 16.2,
+          "entity_query_cooccurrence": 8.9
+        }
+      },
+      {
+        "id": 13,
+        "key": "mentions",
+        "name": "Third-Party Mentions",
+        "pillar": "authority",
+        "score": 54.0,
+        "status": "measured",
+        "scale": "0-100",
+        "raw_value": {
+          "mentioning": 2,
+          "supplied": 3
+        },
+        "evidence": [
+          "2 of 3 readable external source(s) mention 'Lumen Ledger' (full score at 5 mentioning sources).",
+          "Reviews Example (demo review site) (Review site or directory, 4 mention(s)): ...s with a panel of 40 small business owners in New Zealand during 2026. Setup time, GST accuracy and support quality were scored out of ten. Lumen Ledger review. Lum...",
+          "Business News Example (demo news) (News or media, 2 mention(s)): Auckland startup Lumen Ledger passes 12,000 customers. Auckland accounting software company Lumen Ledger said on Tuesday that it has passed 12,000 small business custo...",
+          "No mention found in: Community Forum Example (demo forum)"
+        ],
+        "method": "Number of supplied external sources mentioning the entity, scaled so that 5 sources score 100 (60%), links to the entity website (20%), prominent mentions in title, headings or opening text (20%).",
+        "interpretation": "Third-party corroboration is developing within the supplied source set (3 readable source(s)). This is not a measure of the entity's total web footprint.",
+        "recommendations": [
+          "1 supplied source(s) discuss the topic without naming 'Lumen Ledger'. Treat them as outreach and inclusion targets: Community Forum Example (demo forum).",
+          "Only 2 mentioning source(s) were supplied. Broaden the source set to at least 5 independent pages before drawing conclusions."
+        ],
+        "components": {
+          "sources_mentioning": 24.0,
+          "links_to_entity_site": 10.0,
+          "prominent_mentions": 20.0
+        }
+      },
+      {
+        "id": 14,
+        "key": "diversity",
+        "name": "Source Diversity",
+        "pillar": "authority",
+        "score": 45.0,
+        "status": "measured",
+        "scale": "0-100",
+        "raw_value": {
+          "types": [
+            "news_media",
+            "review_directory"
+          ],
+          "domains": [
+            "news.example",
+            "reviews.example"
+          ]
+        },
+        "evidence": [
+          "2 source type(s) and 2 registrable domain(s) among 2 independent mentioning source(s).",
+          "Types present: News or media, Review site or directory",
+          "Types not represented: Community or forum, Encyclopaedia, Academic or government"
+        ],
+        "method": "Distinct source types among mentioning sources scaled to 4 (50%) plus distinct registrable domains scaled to 5 (50%). Source types are classified by domain rules.",
+        "interpretation": "Source diversity is weak within the supplied set. Source types are classified by domain rules, so unusual domains may be labelled 'Other web source'.",
+        "recommendations": [
+          "The entity is not represented in these source types in the supplied set: Community or forum, Encyclopaedia, Academic or government. Prioritise the types most relevant to the query (review or comparison sites for commercial queries, community threads for experiential ones).",
+          "Mentions are concentrated on very few domains. Aim for mentions on at least three independent domains."
+        ],
+        "components": {
+          "source_types": 25.0,
+          "domains": 20.0
+        }
+      },
+      {
+        "id": 15,
+        "key": "share",
+        "name": "Citation Share",
+        "pillar": "authority",
+        "score": 57.5,
+        "status": "measured",
+        "scale": "0-100",
+        "raw_value": {
+          "citation_share": 0.25,
+          "mention_share": 0.2,
+          "answers": 2
+        },
+        "evidence": [
+          "2 AI answer(s) supplied with 4 citation(s) in total.",
+          "Citation share: 1 of 4 citations point to the target site (25%).",
+          "Mention share: 1 target mention(s) against 4 competitor mention(s) (20%).",
+          "The entity's site is cited in 1 of 2 answer(s) and named in 1."
+        ],
+        "method": "Target-domain citations over all citations (60%) and target mentions over target plus competitor mentions (40%). Each share is scaled so that a 40% share scores 100.",
+        "interpretation": "Within the 2 supplied answer(s), the entity holds a developing share position. This reflects only the answers supplied, not the whole answer space.",
+        "recommendations": [
+          "Study the pages that are cited instead: reviews.example (1x), ledgerly.example (1x), news.example (1x). Compare their structure, facts and evidence with the target page and close the gaps that metrics 1 to 8 expose."
+        ],
+        "components": {
+          "citation_share_score": 62.5
+        }
+      },
+      {
+        "id": 16,
+        "key": "value",
+        "name": "AI Referral Value / Citation Value",
+        "pillar": "authority",
+        "score": 68.9,
+        "status": "estimate",
+        "scale": "0-100",
+        "raw_value": {
+          "intent": "commercial",
+          "intent_value": 1.0
+        },
+        "evidence": [
+          "Query intent classified as 'commercial' (intent value 1.00). Industry: Accounting software; market: New Zealand.",
+          "Entity relevance from metrics 9 and 12: 66/100.",
+          "Mean relevance of 3 supplied external source(s) to the query: 10/100.",
+          "Best citation prominence in supplied answers: 0.50 (1.00 means first citation).",
+          "Search volume, traffic and conversion data are not used. This is an estimate of strategic value, not a forecast."
+        ],
+        "method": "Weighted estimate: query intent value (40%), entity relevance from metrics 9 and 12 (30%), mean relevance of external sources (15%, if available), best citation prominence in supplied answers (15%, if available). No search volume or traffic data is used.",
+        "interpretation": "Estimated citation value is developing. It combines query intent with how relevant the entity currently is, and is an estimate only.",
+        "recommendations": [],
+        "components": {
+          "intent_value": 100.0,
+          "entity_relevance": 66.5,
+          "source_relevance": 9.8,
+          "citation_prominence": 50.0
+        }
+      }
+    ],
+    "scoring": {
+      "overall": 70.5,
+      "band": "Good",
+      "pillars": {
+        "structural": {
+          "name": "Structural Extractability",
+          "score": 90.4,
+          "available": 4,
+          "total": 4,
+          "weight": 0.25,
+          "metrics": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "reason": ""
+        },
+        "information": {
+          "name": "Fact and Information Density",
+          "score": 67.9,
+          "available": 4,
+          "total": 4,
+          "weight": 0.25,
+          "metrics": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "reason": ""
+        },
+        "entity": {
+          "name": "Entity Clarity and Relationship Mapping",
+          "score": 68.1,
+          "available": 4,
+          "total": 4,
+          "weight": 0.25,
+          "metrics": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "reason": ""
+        },
+        "authority": {
+          "name": "Cross-Platform Authority",
+          "score": 55.6,
+          "available": 4,
+          "total": 4,
+          "weight": 0.25,
+          "metrics": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "reason": ""
+        }
+      },
+      "provisional": false,
+      "metrics_available": 16,
+      "metrics_total": 16,
+      "trace": [
+        "Structural Extractability = 90.4  (M1 100 x 0.30, M2 83 x 0.20, M3 92 x 0.25, M4 83 x 0.25)",
+        "Fact and Information Density = 67.9  (M5 75 x 0.20, M6 100 x 0.30, M7 0 x 0.25, M8 92 x 0.25)",
+        "Entity Clarity and Relationship Mapping = 68.1  (M9 83 x 0.20, M10 65 x 0.30, M11 85 x 0.20, M12 50 x 0.30)",
+        "Cross-Platform Authority = 55.6  (M13 54 x 0.30, M14 45 x 0.25, M15 58 x 0.25, M16 69 x 0.20)",
+        "Citation Quality Score = 70.5  (Structural 90 x 0.25, Information 68 x 0.25, Entity 68 x 0.25, Authority 56 x 0.25)"
+      ],
+      "notes": [],
+      "weights_used": {
+        "structural": 0.25,
+        "information": 0.25,
+        "entity": 0.25,
+        "authority": 0.25
+      }
+    },
+    "recommendations": [
+      {
+        "metric_id": 7,
+        "metric_name": "Evidence Attribution",
+        "category": "content",
+        "score": 0.0,
+        "status": "proxy",
+        "evidence": [
+          "0 of 8 claim sentences (0%) carry an attribution cue or an outbound link in the same paragraph.",
+          "0 distinct external domain(s) linked from the content. References section: no."
+        ],
+        "why": "Unsupported claims are harder for a system to trust or repeat. Attributed claims carry their own provenance.",
+        "action": [
+          "8 claim(s) have no visible source. Name the source and year beside each (for example 'According to [publisher], 2025') and link to it. Start with: 'The best accounting software for a small business is the one that automates bank feeds,...'",
+          "Link to primary sources (studies, standards bodies, regulators or original data) rather than relying on unlinked assertions.",
+          "Add a short Sources or References section listing the evidence behind the page's main claims."
+        ],
+        "effect": "Raises trust in the page's claims and the chance they are reused.",
+        "priority": "High",
+        "priority_score": 0.863,
+        "factors": {
+          "weakness": 1.0,
+          "impact": 0.83,
+          "query_importance": 1.0,
+          "entity_relevance": 0.67,
+          "effort": 0.6,
+          "evidence_strength": 0.7
+        },
+        "effort": 2,
+        "horizon": "Near-term"
+      },
+      {
+        "metric_id": 12,
+        "metric_name": "Contextual Relevance",
+        "category": "content",
+        "score": 50.3,
+        "status": "measured",
+        "evidence": [
+          "Backend: tfidf. 3 of 13 passages are relevant to the query (similarity >= 0.12); best similarity 0.45.",
+          "9 passage(s) mention the entity; 4 of them also contain at least half of the key query terms."
+        ],
+        "why": "Being mentioned is not enough. The mention must sit in text that actually addresses the query.",
+        "action": [
+          "Only 4 of 9 passages that name 'Lumen Ledger' also use the language of the query. Put the query's key terms (accounting, software, small, businesses) in the same passages as the entity name.",
+          "Most passages are only loosely related to the query. Tighten the page to the query or split off-topic material into separate pages."
+        ],
+        "effect": "Aligns the entity with the query so that it is considered topically relevant.",
+        "priority": "High",
+        "priority_score": 0.75,
+        "factors": {
+          "weakness": 0.5,
+          "impact": 1.0,
+          "query_importance": 1.0,
+          "entity_relevance": 0.67,
+          "effort": 0.6,
+          "evidence_strength": 1.0
+        },
+        "effort": 2,
+        "horizon": "Near-term"
+      },
+      {
+        "metric_id": 10,
+        "metric_name": "Entity Clarity",
+        "category": "entity",
+        "score": 65.0,
+        "status": "measured",
+        "evidence": [
+          "Definition: Lumen Ledger is a cloud product, so data is available from any browser.",
+          "Offering: Lumen Ledger partners with Hui Payments to offer same-day invoice payments, and it integrates with Shopify for online retailers."
+        ],
+        "why": "Systems resolving an entity need an explicit statement of what it is and does.",
+        "action": [
+          "Add identity facts (year founded, headquarters or service area) beside the entity name so it can be disambiguated.",
+          "Move the definition into the first fifth of the page. It currently appears late."
+        ],
+        "effect": "Makes the entity easier to describe accurately in a generated answer.",
+        "priority": "High",
+        "priority_score": 0.739,
+        "factors": {
+          "weakness": 0.35,
+          "impact": 1.0,
+          "query_importance": 1.0,
+          "entity_relevance": 0.67,
+          "effort": 1.0,
+          "evidence_strength": 1.0
+        },
+        "effort": 1,
+        "horizon": "Immediate"
+      },
+      {
+        "metric_id": 13,
+        "metric_name": "Third-Party Mentions",
+        "category": "authority",
+        "score": 54.0,
+        "status": "measured",
+        "evidence": [
+          "2 of 3 readable external source(s) mention 'Lumen Ledger' (full score at 5 mentioning sources).",
+          "Reviews Example (demo review site) (Review site or directory, 4 mention(s)): ...s with a panel of 40 small business owners in New Zealand during 2026. Setup time, GST accuracy and support quality were scored out of ten. Lumen Ledger review. Lum..."
+        ],
+        "why": "Independent mentions corroborate what the entity says about itself.",
+        "action": [
+          "1 supplied source(s) discuss the topic without naming 'Lumen Ledger'. Treat them as outreach and inclusion targets: Community Forum Example (demo forum).",
+          "Only 2 mentioning source(s) were supplied. Broaden the source set to at least 5 independent pages before drawing conclusions."
+        ],
+        "effect": "Builds corroboration across sources that answer engines may consult.",
+        "priority": "Medium",
+        "priority_score": 0.708,
+        "factors": {
+          "weakness": 0.46,
+          "impact": 1.0,
+          "query_importance": 1.0,
+          "entity_relevance": 0.67,
+          "effort": 0.3,
+          "evidence_strength": 1.0
+        },
+        "effort": 3,
+        "horizon": "Strategic"
+      },
+      {
+        "metric_id": 14,
+        "metric_name": "Source Diversity",
+        "category": "authority",
+        "score": 45.0,
+        "status": "measured",
+        "evidence": [
+          "2 source type(s) and 2 registrable domain(s) among 2 independent mentioning source(s).",
+          "Types present: News or media, Review site or directory"
+        ],
+        "why": "A footprint concentrated on one kind of source is fragile and less representative.",
+        "action": [
+          "The entity is not represented in these source types in the supplied set: Community or forum, Encyclopaedia, Academic or government. Prioritise the types most relevant to the query (review or comparison sites for commercial queries, community threads for experiential ones).",
+          "Mentions are concentrated on very few domains. Aim for mentions on at least three independent domains."
+        ],
+        "effect": "Makes the entity visible across the kinds of sources that answers cite.",
+        "priority": "Medium",
+        "priority_score": 0.706,
+        "factors": {
+          "weakness": 0.55,
+          "impact": 0.83,
+          "query_importance": 1.0,
+          "entity_relevance": 0.67,
+          "effort": 0.3,
+          "evidence_strength": 1.0
+        },
+        "effort": 3,
+        "horizon": "Strategic"
+      },
+      {
+        "metric_id": 15,
+        "metric_name": "Citation Share",
+        "category": "citation",
+        "score": 57.5,
+        "status": "measured",
+        "evidence": [
+          "2 AI answer(s) supplied with 4 citation(s) in total.",
+          "Citation share: 1 of 4 citations point to the target site (25%)."
+        ],
+        "why": "Share shows how much of the observed answer space the entity occupies relative to others.",
+        "action": [
+          "Study the pages that are cited instead: reviews.example (1x), ledgerly.example (1x), news.example (1x). Compare their structure, facts and evidence with the target page and close the gaps that metrics 1 to 8 expose."
+        ],
+        "effect": "Tracks competitive position within the answers you have actually collected.",
+        "priority": "Medium",
+        "priority_score": 0.662,
+        "factors": {
+          "weakness": 0.42,
+          "impact": 0.83,
+          "query_importance": 1.0,
+          "entity_relevance": 0.67,
+          "effort": 0.3,
+          "evidence_strength": 1.0
+        },
+        "effort": 3,
+        "horizon": "Strategic"
+      }
+    ],
+    "opportunities": {
+      "citation": [
+        {
+          "title": "Citation Share (score 58)",
+          "evidence": [
+            "2 AI answer(s) supplied with 4 citation(s) in total.",
+            "Citation share: 1 of 4 citations point to the target site (25%)."
+          ],
+          "why": "Share shows how much of the observed answer space the entity occupies relative to others.",
+          "action": [
+            "Study the pages that are cited instead: reviews.example (1x), ledgerly.example (1x), news.example (1x). Compare their structure, facts and evidence with the target page and close the gaps that metrics 1 to 8 expose."
+          ],
+          "priority": "Medium",
+          "source": "metric"
+        },
+        {
+          "title": "Lumen Ledger is absent from 1 of 2 supplied answer(s)",
+          "evidence": [
+            "Answers without the entity: Demo answer B"
+          ],
+          "why": "An entity that is not named cannot be recommended. Absence usually reflects weak entity clarity or weak corroboration.",
+          "action": [
+            "Compare the pages those answers cite with the target page, and close the gaps in structure, facts and evidence."
+          ],
+          "priority": "High",
+          "source": "ai_answers"
+        },
+        {
+          "title": "Cited source without the entity: ledgerly.example",
+          "evidence": [
+            "ledgerly.example is cited 1 time(s) in answers where the target site is not cited. The page was not supplied, so mention status is unverified."
+          ],
+          "why": "Sources that answers already rely on are the most direct route to being included.",
+          "action": [
+            "Seek inclusion or a factual mention of Lumen Ledger on ledgerly.example where it is relevant, with a link to a supporting page."
+          ],
+          "priority": "Medium",
+          "source": "ai_answers"
+        },
+        {
+          "title": "Cited source without the entity: news.example",
+          "evidence": [
+            "news.example is cited 1 time(s) in answers where the target site is not cited. The page was not supplied, so mention status is unverified."
+          ],
+          "why": "Sources that answers already rely on are the most direct route to being included.",
+          "action": [
+            "Seek inclusion or a factual mention of Lumen Ledger on news.example where it is relevant, with a link to a supporting page."
+          ],
+          "priority": "Medium",
+          "source": "ai_answers"
+        }
+      ],
+      "content": [
+        {
+          "title": "Evidence Attribution (score 0)",
+          "evidence": [
+            "0 of 8 claim sentences (0%) carry an attribution cue or an outbound link in the same paragraph.",
+            "0 distinct external domain(s) linked from the content. References section: no."
+          ],
+          "why": "Unsupported claims are harder for a system to trust or repeat. Attributed claims carry their own provenance.",
+          "action": [
+            "8 claim(s) have no visible source. Name the source and year beside each (for example 'According to [publisher], 2025') and link to it. Start with: 'The best accounting software for a small business is the one that automates bank feeds,...'",
+            "Link to primary sources (studies, standards bodies, regulators or original data) rather than relying on unlinked assertions.",
+            "Add a short Sources or References section listing the evidence behind the page's main claims."
+          ],
+          "priority": "High",
+          "source": "metric"
+        },
+        {
+          "title": "Contextual Relevance (score 50)",
+          "evidence": [
+            "Backend: tfidf. 3 of 13 passages are relevant to the query (similarity >= 0.12); best similarity 0.45.",
+            "9 passage(s) mention the entity; 4 of them also contain at least half of the key query terms."
+          ],
+          "why": "Being mentioned is not enough. The mention must sit in text that actually addresses the query.",
+          "action": [
+            "Only 4 of 9 passages that name 'Lumen Ledger' also use the language of the query. Put the query's key terms (accounting, software, small, businesses) in the same passages as the entity name.",
+            "Most passages are only loosely related to the query. Tighten the page to the query or split off-topic material into separate pages."
+          ],
+          "priority": "High",
+          "source": "metric"
+        }
+      ],
+      "entity": [
+        {
+          "title": "Entity Clarity (score 65)",
+          "evidence": [
+            "Definition: Lumen Ledger is a cloud product, so data is available from any browser.",
+            "Offering: Lumen Ledger partners with Hui Payments to offer same-day invoice payments, and it integrates with Shopify for online retailers."
+          ],
+          "why": "Systems resolving an entity need an explicit statement of what it is and does.",
+          "action": [
+            "Add identity facts (year founded, headquarters or service area) beside the entity name so it can be disambiguated.",
+            "Move the definition into the first fifth of the page. It currently appears late."
+          ],
+          "priority": "High",
+          "source": "metric"
+        }
+      ],
+      "authority": [
+        {
+          "title": "Third-Party Mentions (score 54)",
+          "evidence": [
+            "2 of 3 readable external source(s) mention 'Lumen Ledger' (full score at 5 mentioning sources).",
+            "Reviews Example (demo review site) (Review site or directory, 4 mention(s)): ...s with a panel of 40 small business owners in New Zealand during 2026. Setup time, GST accuracy and support quality were scored out of ten. Lumen Ledger review. Lum..."
+          ],
+          "why": "Independent mentions corroborate what the entity says about itself.",
+          "action": [
+            "1 supplied source(s) discuss the topic without naming 'Lumen Ledger'. Treat them as outreach and inclusion targets: Community Forum Example (demo forum).",
+            "Only 2 mentioning source(s) were supplied. Broaden the source set to at least 5 independent pages before drawing conclusions."
+          ],
+          "priority": "Medium",
+          "source": "metric"
+        },
+        {
+          "title": "Source Diversity (score 45)",
+          "evidence": [
+            "2 source type(s) and 2 registrable domain(s) among 2 independent mentioning source(s).",
+            "Types present: News or media, Review site or directory"
+          ],
+          "why": "A footprint concentrated on one kind of source is fragile and less representative.",
+          "action": [
+            "The entity is not represented in these source types in the supplied set: Community or forum, Encyclopaedia, Academic or government. Prioritise the types most relevant to the query (review or comparison sites for commercial queries, community threads for experiential ones).",
+            "Mentions are concentrated on very few domains. Aim for mentions on at least three independent domains."
+          ],
+          "priority": "Medium",
+          "source": "metric"
+        },
+        {
+          "title": "1 relevant source(s) discuss the topic without naming Lumen Ledger",
+          "evidence": [
+            "Community Forum Example (demo forum)"
+          ],
+          "why": "These pages already cover the topic. They are plausible places for a corroborating mention.",
+          "action": [
+            "Prepare factual, citable material (data, specifications, case evidence) and approach the publishers where inclusion is editorially justified."
+          ],
+          "priority": "Medium",
+          "source": "external_sources"
+        }
+      ],
+      "technical": []
+    },
+    "evidence_gaps": [],
+    "entities": [
+      {
+        "name": "Lumen Ledger",
+        "type": "BRAND_OR_PRODUCT",
+        "count": 13,
+        "role": "target"
+      },
+      {
+        "name": "GST",
+        "type": "TECHNOLOGY",
+        "count": 5,
+        "role": "related"
+      },
+      {
+        "name": "New Zealand",
+        "type": "LOCATION",
+        "count": 3,
+        "role": "related"
+      },
+      {
+        "name": "Ledgerly",
+        "type": "BRAND_OR_PRODUCT",
+        "count": 3,
+        "role": "competitor"
+      },
+      {
+        "name": "Tallyworks",
+        "type": "BRAND_OR_PRODUCT",
+        "count": 3,
+        "role": "competitor"
+      },
+      {
+        "name": "Inland Revenue",
+        "type": "BRAND_OR_PRODUCT",
+        "count": 2,
+        "role": "supporting"
+      },
+      {
+        "name": "Shopify",
+        "type": "BRAND_OR_PRODUCT",
+        "count": 2,
+        "role": "related"
+      },
+      {
+        "name": "Hui Payments",
+        "type": "BRAND_OR_PRODUCT",
+        "count": 2,
+        "role": "related"
+      },
+      {
+        "name": "Starter",
+        "type": "BRAND_OR_PRODUCT",
+        "count": 2,
+        "role": "related"
+      },
+      {
+        "name": "Auckland",
+        "type": "LOCATION",
+        "count": 2,
+        "role": "supporting"
+      },
+      {
+        "name": "Accounting Software",
+        "type": "BRAND_OR_PRODUCT",
+        "count": 1,
+        "role": "unknown"
+      },
+      {
+        "name": "Small Businesses",
+        "type": "BRAND_OR_PRODUCT",
+        "count": 1,
+        "role": "unknown"
+      },
+      {
+        "name": "Australia",
+        "type": "LOCATION",
+        "count": 1,
+        "role": "related"
+      },
+      {
+        "name": "Australian",
+        "type": "BRAND_OR_PRODUCT",
+        "count": 1,
+        "role": "unknown"
+      },
+      {
+        "name": "Stripe",
+        "type": "BRAND_OR_PRODUCT",
+        "count": 1,
+        "role": "unknown"
+      },
+      {
+        "name": "Growth",
+        "type": "BRAND_OR_PRODUCT",
+        "count": 1,
+        "role": "related"
+      },
+      {
+        "name": "Scale",
+        "type": "BRAND_OR_PRODUCT",
+        "count": 1,
+        "role": "related"
+      },
+      {
+        "name": "Priya Raman",
+        "type": "PERSON",
+        "count": 1,
+        "role": "unknown"
+      },
+      {
+        "name": "CSV",
+        "type": "TECHNOLOGY",
+        "count": 1,
+        "role": "unknown"
+      }
+    ],
+    "relationships": [
+      {
+        "subject": "Lumen Ledger",
+        "relation": "co-mentioned",
+        "object": "New Zealand",
+        "object_type": "LOCATION",
+        "sentence": "Lumen Ledger is cloud accounting software built for small businesses in New Zealand and Australia, and it covers all three from NZ$29 per month."
+      },
+      {
+        "subject": "Lumen Ledger",
+        "relation": "co-mentioned",
+        "object": "Australia",
+        "object_type": "LOCATION",
+        "sentence": "Lumen Ledger is cloud accounting software built for small businesses in New Zealand and Australia, and it covers all three from NZ$29 per month."
+      },
+      {
+        "subject": "Lumen Ledger",
+        "relation": "co-mentioned",
+        "object": "Starter",
+        "object_type": "BRAND_OR_PRODUCT",
+        "sentence": "Lumen Ledger costs NZ$29 per month for the Starter plan, NZ$59 per month for the Growth plan and NZ$99 per month for the Scale plan, all billed monthly with a 30 day free trial."
+      },
+      {
+        "subject": "Lumen Ledger",
+        "relation": "co-mentioned",
+        "object": "Growth",
+        "object_type": "BRAND_OR_PRODUCT",
+        "sentence": "Lumen Ledger costs NZ$29 per month for the Starter plan, NZ$59 per month for the Growth plan and NZ$99 per month for the Scale plan, all billed monthly with a 30 day free trial."
+      },
+      {
+        "subject": "Lumen Ledger",
+        "relation": "competition",
+        "object": "Ledgerly",
+        "object_type": "BRAND_OR_PRODUCT",
+        "sentence": "Lumen Ledger compared with Ledgerly and Tallyworks."
+      },
+      {
+        "subject": "Lumen Ledger",
+        "relation": "competition",
+        "object": "Tallyworks",
+        "object_type": "BRAND_OR_PRODUCT",
+        "sentence": "Lumen Ledger compared with Ledgerly and Tallyworks."
+      },
+      {
+        "subject": "Lumen Ledger",
+        "relation": "partnership",
+        "object": "Hui Payments",
+        "object_type": "BRAND_OR_PRODUCT",
+        "sentence": "Lumen Ledger partners with Hui Payments to offer same-day invoice payments, and it integrates with Shopify for online retailers."
+      },
+      {
+        "subject": "Lumen Ledger",
+        "relation": "partnership",
+        "object": "Shopify",
+        "object_type": "BRAND_OR_PRODUCT",
+        "sentence": "Lumen Ledger partners with Hui Payments to offer same-day invoice payments, and it integrates with Shopify for online retailers."
+      },
+      {
+        "subject": "Lumen Ledger",
+        "relation": "integration",
+        "object": "Shopify",
+        "object_type": "BRAND_OR_PRODUCT",
+        "sentence": "Lumen Ledger partners with Hui Payments to offer same-day invoice payments, and it integrates with Shopify for online retailers."
+      },
+      {
+        "subject": "Lumen Ledger",
+        "relation": "co-mentioned",
+        "object": "GST",
+        "object_type": "TECHNOLOGY",
+        "sentence": "Does Lumen Ledger file GST returns?"
+      }
+    ],
+    "topics": [
+      "lumen ledger",
+      "per month",
+      "accounting software",
+      "bank feeds",
+      "small businesses",
+      "gst returns",
+      "entry price",
+      "software small"
+    ],
+    "answer_analyses": [
+      {
+        "label": "Demo answer A",
+        "query": "best accounting software for small businesses",
+        "entity_mentioned": true,
+        "mention_count": 1,
+        "first_position_pct": 16.9,
+        "mention_type": "recommended",
+        "contexts": [
+          "For small businesses in New Zealand, three popular choices are: - Lumen Ledger: best for sole traders and small teams, with automatic bank feeds and GST filing from NZ$29 per month [1]. - Ledgerly: good value for sole..."
+        ],
+        "cited": true,
+        "citation_ranks": [
+          2
+        ],
+        "citation_prominence": 0.5,
+        "citation_count": 2,
+        "cited_sources": [
+          {
+            "rank": 1,
+            "url": "https://reviews.example/accounting-software",
+            "title": "Accounting software reviews",
+            "domain": "reviews.example",
+            "source_type": "review_directory",
+            "is_target": false,
+            "is_competitor": false,
+            "mentions_target": true
+          },
+          {
+            "rank": 2,
+            "url": "https://lumenledger.example/best-accounting-software-small-business",
+            "title": "Lumen Ledger",
+            "domain": "lumenledger.example",
+            "source_type": "own_site",
+            "is_target": true,
+            "is_competitor": false,
+            "mentions_target": null
+          }
+        ],
+        "competitor_mentions": {
+          "Ledgerly": 1,
+          "Tallyworks": 1
+        },
+        "competitors_cited": [],
+        "attributable_ratio": 1.0,
+        "unattributed_mentions": [],
+        "source_overlap_with_supplied": [
+          "reviews.example"
+        ],
+        "cited_domains_not_mentioning_target": [],
+        "cited_domains_unchecked": [],
+        "type_counts": {
+          "Own website": 1,
+          "Review site or directory": 1
+        }
+      },
+      {
+        "label": "Demo answer B",
+        "query": "best accounting software for small businesses",
+        "entity_mentioned": false,
+        "mention_count": 0,
+        "first_position_pct": null,
+        "mention_type": "absent",
+        "contexts": [],
+        "cited": false,
+        "citation_ranks": [],
+        "citation_prominence": 0.0,
+        "citation_count": 2,
+        "cited_sources": [
+          {
+            "rank": 1,
+            "url": "https://ledgerly.example/pricing",
+            "title": "Ledgerly pricing",
+            "domain": "ledgerly.example",
+            "source_type": "competitor_site",
+            "is_target": false,
+            "is_competitor": true,
+            "mentions_target": null
+          },
+          {
+            "rank": 2,
+            "url": "https://news.example/small-business-software",
+            "title": "Small business software roundup",
+            "domain": "news.example",
+            "source_type": "news_media",
+            "is_target": false,
+            "is_competitor": false,
+            "mentions_target": null
+          }
+        ],
+        "competitor_mentions": {
+          "Ledgerly": 1,
+          "Tallyworks": 1
+        },
+        "competitors_cited": [
+          "ledgerly.example"
+        ],
+        "attributable_ratio": null,
+        "unattributed_mentions": [],
+        "source_overlap_with_supplied": [
+          "news.example"
+        ],
+        "cited_domains_not_mentioning_target": [],
+        "cited_domains_unchecked": [
+          "ledgerly.example",
+          "news.example"
+        ],
+        "type_counts": {
+          "Competitor website": 1,
+          "News or media": 1
+        }
+      }
+    ],
+    "external_summary": [
+      {
+        "label": "Reviews Example (demo review site)",
+        "url": "https://reviews.example/accounting-software",
+        "source_type": "review_directory",
+        "ok": true,
+        "error": "",
+        "words": 171,
+        "mentions": 4,
+        "context": "...s with a panel of 40 small business owners in New Zealand during 2026. Setup time, GST accuracy and support quality were scored out of ten. Lumen Ledger review. Lumen Ledger scored 8.6 out of 10 overall and was the quickest to set up, averaging 22 minutes. Its bank feed coverage and GST fili...",
+        "links_to_target": true,
+        "prominent": true,
+        "relevance": 0.044,
+        "date": ""
+      },
+      {
+        "label": "Business News Example (demo news)",
+        "url": "https://news.example/lumen-ledger-12000",
+        "source_type": "news_media",
+        "ok": true,
+        "error": "",
+        "words": 96,
+        "mentions": 2,
+        "context": "Auckland startup Lumen Ledger passes 12,000 customers. Auckland accounting software company Lumen Ledger said on Tuesday that it has passed 12,000 small business custome...",
+        "links_to_target": false,
+        "prominent": true,
+        "relevance": 0.055,
+        "date": ""
+      },
+      {
+        "label": "Community Forum Example (demo forum)",
+        "url": "https://forum.example/accounting-software-thread",
+        "source_type": "community_forum",
+        "ok": true,
+        "error": "",
+        "words": 106,
+        "mentions": 0,
+        "context": "",
+        "links_to_target": false,
+        "prominent": false,
+        "relevance": 0.058,
+        "date": ""
+      }
+    ],
+    "query_set": [
+      {
+        "query": "best accounting software for small businesses",
+        "overall": 70.5,
+        "pillars": {
+          "structural": 90.4,
+          "information": 67.9,
+          "entity": 68.1,
+          "authority": 55.6
+        },
+        "key_metrics": {
+          "Direct answer": 100.0,
+          "Coverage": 91.7,
+          "Contextual relevance": 50.3
+        },
+        "is_primary": true
+      }
+    ],
+    "facets": [
+      {
+        "name": "What it is (definition and overview)",
+        "keywords": [
+          "is a",
+          "is an",
+          "refers to",
+          "overview",
+          "designed to"
+        ],
+        "origin": "commercial intent",
+        "level": "full",
+        "best_similarity": 0.134,
+        "keyword_passages": 4,
+        "heading_match": true,
+        "evidence": "The best accounting software for a small business is the one that automates bank feeds, GST returns and invoicing at a price the business can susta..."
+      },
+      {
+        "name": "Key features and capabilities",
+        "keywords": [
+          "feature",
+          "includes",
+          "offers",
+          "functionality",
+          "capability",
+          "integration"
+        ],
+        "origin": "commercial intent",
+        "level": "full",
+        "best_similarity": 0.112,
+        "keyword_passages": 1,
+        "heading_match": true,
+        "evidence": "The best accounting software for a small business is the one that automates bank feeds, GST returns and invoicing at a price the business can susta..."
+      },
+      {
+        "name": "Pricing and plans",
+        "keywords": [
+          "price",
+          "pricing",
+          "cost",
+          "plan",
+          "per month",
+          "free",
+          "subscription",
+          "trial",
+          "$"
+        ],
+        "origin": "commercial intent",
+        "level": "full",
+        "best_similarity": 0.142,
+        "keyword_passages": 5,
+        "heading_match": true,
+        "evidence": "The best accounting software for a small business is the one that automates bank feeds, GST returns and invoicing at a price the business can susta..."
+      },
+      {
+        "name": "Benefits and strengths",
+        "keywords": [
+          "benefit",
+          "advantage",
+          "strength",
+          "helps",
+          "saves",
+          "improves"
+        ],
+        "origin": "commercial intent",
+        "level": "partial",
+        "best_similarity": 0.117,
+        "keyword_passages": 1,
+        "heading_match": false,
+        "evidence": "The best accounting software for a small business is the one that automates bank feeds, GST returns and invoicing at a price the business can susta..."
+      },
+      {
+        "name": "Limitations and trade-offs",
+        "keywords": [
+          "limitation",
+          "drawback",
+          "downside",
+          "however",
+          "not suitable",
+          "lacks",
+          "trade-off"
+        ],
+        "origin": "commercial intent",
+        "level": "full",
+        "best_similarity": 0.119,
+        "keyword_passages": 1,
+        "heading_match": true,
+        "evidence": "The best accounting software for a small business is the one that automates bank feeds, GST returns and invoicing at a price the business can susta..."
+      },
+      {
+        "name": "Comparison with alternatives",
+        "keywords": [
+          "alternative",
+          "compared",
+          "versus",
+          "vs",
+          "competitor",
+          "instead of",
+          "rather than"
+        ],
+        "origin": "commercial intent",
+        "level": "full",
+        "best_similarity": 0.121,
+        "keyword_passages": 3,
+        "heading_match": true,
+        "evidence": "Many options are on the market today and they are all great solutions that will take your business to the next level. This guide explains how to ch..."
+      },
+      {
+        "name": "Use cases and target audience",
+        "keywords": [
+          "for small",
+          "suited",
+          "ideal for",
+          "use case",
+          "designed for",
+          "who it"
+        ],
+        "origin": "commercial intent",
+        "level": "full",
+        "best_similarity": 0.107,
+        "keyword_passages": 4,
+        "heading_match": true,
+        "evidence": "The best accounting software for a small business is the one that automates bank feeds, GST returns and invoicing at a price the business can susta..."
+      },
+      {
+        "name": "Selection criteria",
+        "keywords": [
+          "choose",
+          "criteria",
+          "consider",
+          "factors",
+          "what to look for",
+          "decide"
+        ],
+        "origin": "commercial intent",
+        "level": "full",
+        "best_similarity": 0.117,
+        "keyword_passages": 2,
+        "heading_match": true,
+        "evidence": "Many options are on the market today and they are all great solutions that will take your business to the next level. This guide explains how to ch..."
+      },
+      {
+        "name": "Evidence, reviews and proof",
+        "keywords": [
+          "review",
+          "rating",
+          "rated",
+          "tested",
+          "study",
+          "survey",
+          "case study",
+          "customers"
+        ],
+        "origin": "commercial intent",
+        "level": "partial",
+        "best_similarity": 0.11,
+        "keyword_passages": 1,
+        "heading_match": false,
+        "evidence": "The best accounting software for a small business is the one that automates bank feeds, GST returns and invoicing at a price the business can susta..."
+      },
+      {
+        "name": "Availability, support and setup",
+        "keywords": [
+          "support",
+          "available",
+          "region",
+          "country",
+          "onboarding",
+          "setup",
+          "implementation"
+        ],
+        "origin": "commercial intent",
+        "level": "full",
+        "best_similarity": 0.132,
+        "keyword_passages": 4,
+        "heading_match": false,
+        "evidence": "You can import contacts, accounts and opening balances from a CSV file. Support is available by email and chat on weekdays."
+      },
+      {
+        "name": "Query concept: accounting software",
+        "keywords": [
+          "accounting software"
+        ],
+        "origin": "query phrase",
+        "level": "full",
+        "best_similarity": 0.274,
+        "keyword_passages": 4,
+        "heading_match": true,
+        "evidence": "The best accounting software for a small business is the one that automates bank feeds, GST returns and invoicing at a price the business can susta..."
+      },
+      {
+        "name": "Query concept: small businesses",
+        "keywords": [
+          "small business"
+        ],
+        "origin": "query phrase",
+        "level": "full",
+        "best_similarity": 0.308,
+        "keyword_passages": 5,
+        "heading_match": true,
+        "evidence": "The best accounting software for a small business is the one that automates bank feeds, GST returns and invoicing at a price the business can susta..."
+      }
+    ],
+    "semantic_backend": "tfidf",
+    "semantic_note": "TF-IDF backend selected. Similarity reflects weighted term overlap, not deep meaning.",
+    "ai_status": "AI enhancement unavailable. Local analysis has been used.",
+    "ai_provider": "",
+    "ai_subtopics": [],
+    "ai_commentary": null,
+    "intent": "commercial",
+    "warnings": []
+  }
+}

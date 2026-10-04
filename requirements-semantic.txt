@@ -1,0 +1,5 @@
+# Optional: stronger semantic similarity using sentence embeddings.
+# Downloads a model (about 90 MB for all-MiniLM-L6-v2) on first use and pulls in PyTorch (large).
+# Not recommended for Streamlit Community Cloud's free tier. Use locally.
+-r requirements.txt
+sentence-transformers>=3.0
